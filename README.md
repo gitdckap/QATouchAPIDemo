@@ -22,8 +22,14 @@ api-token
 
 ## config.php
 
-$domain = '*****';              // Your Domain name
-$apiToken = 'XXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX';   // Your API Key Token generated in your domain (Go to User->Edit profile Under General settings, Click 'Generate API Key')
+$domain = '*****';              
+		// Your Domain name
+
+$apiToken = 'XXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX';   
+		// Your API Key Token generated in your domain 
+		
+		(Go to User->Edit profile Under General settings, Click 'Generate API Key')
+
 $url    = 'https://api.qatouch.com/api/v1/';                // QA Touch API URL
 
 
