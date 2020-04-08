@@ -20,6 +20,14 @@ Required Headers
 domain
 api-token
 
+## config.php
+
+$domain = '*****';              // Your Domain name
+$apiToken = 'XXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX';   // Your API Key Token generated in your domain (Go to User->Edit profile Under General settings, Click 'Generate API Key')
+$url    = 'https://api.qatouch.com/api/v1/';                // QA Touch API URL
+
+
+
 ## Pagination
 
 By default, all the endpoints which return more than 50 rows are paginated. You can move to another page by adding parameters to the request.
