@@ -1,6 +1,6 @@
 # QA Touch API
 
-QA Touch is Collaborative Test Case Management tool For Modern QA Teams
+QA Touch is a Collaborative Test Case Management tool For Modern QA Teams
 
 
 ## Generate API Key
@@ -9,7 +9,9 @@ Before you start using our API, your first step is to obtain an api-token from y
 
 To Obtain api-token follow the steps below Go to User->Edit profile Under General settings, Click 'Generate API Key' to generate the API key.
 
-(Note: QA Touch API is a Premium feature only for paid users)
+API Key generation is available under Email Notification Settings
+
+(Note: QA Touch API is a Premium feature only for Professional and Enterprise users)
 
 ## Information
 
