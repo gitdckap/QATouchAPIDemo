@@ -26,7 +26,7 @@ function getAllProjects($apiToken,$domain,$url) {
 $projectkey = "BJaX";
 $assignkey  = "g2bz";
 $milestoneKey = 'BJ1a';
-$testRun = 'run testing';
+$testRun = 'run testing 230';
 /* Provides the list of projects created for your domain */
 
 
