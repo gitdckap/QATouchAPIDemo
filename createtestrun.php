@@ -27,7 +27,7 @@ $projectkey = "BJaX";
 $assignkey  = "g2bz";
 $milestoneKey = 'BJ1a';
 $testRun = 'run testing 230';
-/* Provides the list of projects created for your domain */
+/* Test run will be created for your domain */
 
 
 $projecturl  = $url.'testRun?projectKey='.$projectkey.'&assignTo='.$assignkey.'&milestoneKey='.$milestoneKey.'&testRun='.$testRun;
