@@ -1,0 +1,29 @@
+<!Doctype>
+<html>
+<head>
+  <title>Test</title>
+<script>
+var myHeaders = new Headers({
+    'Access-Control-Allow-Origin':'*',
+    'Content-Type': 'multipart/form-data'
+});
+myHeaders.append("domain", "apidemo");
+myHeaders.append("api-token", "b3ebb47d91f541526182cf7cdb51aae20ebc46a45740130c3f17b0cf9ab3a152");
+
+var requestOptions = {
+  method: 'GET',
+  headers: myHeaders,
+  redirect: 'follow'
+};
+
+fetch("api.qatouch.com/api/v1/count/allTestCases/BJaX", requestOptions)
+  .then(response => response.text())
+  .then(result => console.log(result))
+  .catch(error => console.log('error', error));
+</script>
+</head>
+<body>
+	
+</body>
+
+</html>
